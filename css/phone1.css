@@ -1,0 +1,119 @@
+/* Navigation and home*/
+
+#navbar {
+    flex-direction: column;
+}
+
+#logo img {
+    height: 50px;
+    padding: 0px 0px;
+    margin: -8px;
+    border-radius: 100px;
+}
+
+#logo {
+    margin: 10px 34px;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    background: url(../bg1.jpg) no-repeat center center/cover;
+    height: 553px;
+    top: -50px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#home h1 {
+    padding-top: 20px;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn {
+    padding: 2px 2px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    left: 85px;
+}
+
+#navbar ul li a {
+    display: block;
+    color: white;
+    padding: 3px 8px;
+    text-decoration: none;
+    border-radius: 21px;
+}
+
+#home p {
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/*Our services and all about this */
+
+#services {
+    margin: -21px;
+    flex-direction: column;
+}
+
+h-primary {
+    font-family: 'Bree Serif', serif;
+    font-size: 3.9rem;
+    padding: 12px;
+}
+
+#services .box {
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+    position: relative;
+    top: 300px;
+}
+
+
+/*Our Clinets Section and all about it */
+
+#clinet img {
+    height: 60px;
+    position: relative;
+    bottom: 50px;
+}
+
+.client-item {
+    padding: 2px;
+}
+
+#clinet {
+    align-items: center;
+    position: relative;
+    left: 22px;
+    top: 340px;
+}
+
+.center1 {
+    position: relative;
+    top: 225px;
+}
+
+.center2 {
+    position: relative;
+    top: 307px;
+}
